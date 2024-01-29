@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.se{ background-color: #d5d4e0; /* Culoarea fundalului */
+    border-radius: 15px; /* Raza chenarului rotunjit */
+    padding: 20px; /* Spațiere interioară */
+    margin: 20px 0;
+
+}
+.rounded-box {
+    background-color: #ffffff; /* Culoarea fundalului */
+
+    padding: 50px; /* Spațiere interioară */
+    margin-bottom: 50px;
+}
+.rel{
+    background-color: #d5d4e0; /* Culoarea fundalului */
+    border-radius: 15px; /* Raza chenarului rotunjit */
+    padding: 20px; /* Spațiere interioară */
+    margin-bottom: 50px;
+}
+#image-section img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    transition: transform 0.1s ease, box-shadow 0.3s ease; /* Adăugăm o tranziție pentru efectele la hover */
+}
+
+#image-section:hover img {
+    transform: scale(1.05); /* Ajustează valoarea la cea dorită (mai mică decât 1 pentru o mărire mai mică) */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+#page-description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555; /* Sau orice altă culoare dorită */
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Stiluri pentru bara de navigare */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+    transition: transform 0.3s ease; /* Adăugăm o tranziție pentru proprietatea transform */
+}
+
+/* Efect la trecerea cu mouse-ul peste fiecare element */
+nav li:hover {
+    transform: scale(1.05); /* Ajustăm transformarea pentru un efect de mărire la hover */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #4CAF50;
+    transition: color 0.3s ease-in-out;
+}
+
+section {
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
